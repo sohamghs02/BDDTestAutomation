@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = {"./myWebApp/Home.feature"}, 
+		features = {"./myWebApp/Home.feature", "./myWebApp/Login.feature"}, 
 		glue = {"PageContent"}
 )
 
